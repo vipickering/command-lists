@@ -1,5 +1,9 @@
 # Terminal
 
+All commands I frequently use in the OSX terminal. I prefer [iTerm](http://www.iterm2.com)
+
+## Terminal Commands
+
 ## Run Task in the background
 
 Simply append '&' after the command.
@@ -32,12 +36,6 @@ ls
 clear
 ```
 
-### Delete an entire line of text
-
-```
-Control-U 
-```
-
 ### Create a nested directory structure
 
 ```
@@ -57,12 +55,31 @@ Simply do exclamantion mark, then the first letter. E.G to execute the last comm
 !l
 ```
 
+## Key Commands
+
+### Jump to beginning of line
+
+```
+Control-A
+```
+
+### Jump to end of line
+
+```
+Control-E
+```
+
+### Delete an entire line of text
+
+```
+Control-U 
+```
+
 ### End running process
 
 ```
 Control-C
 ```
-
 ### Interrupt running process
 For example, start a running process such as ```node start```. Then type ```Control-Z```. Then you can type ```bg``` to move the task in to the background and continue using the terminal.
 
