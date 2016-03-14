@@ -55,6 +55,29 @@ Simply do exclamantion mark, then the first letter. E.G to execute the last comm
 !l
 ```
 
+### No Hangups
+Insert the command before running the action e.g. ```nohup node start```. This will immunizes a command from a “hang up”, which essentially means. If you close the terminal window, the command will still run.
+
+```
+nohup
+```
+
+### Output contents to a file
+if you prepend a command with ```>``` followed by the file name. This will output the running command feedback to a file rather than the command line. So for example to feedback the output to text file you could do the following:
+
+```
+node start > output.txt
+```
+
+### Start a running command in the background and output to the text file
+Combining the previous two commands together gives you
+a command to run in the background, output to a log file that is not reliant on the terminal being open.
+
+```
+nohup node start > output.txt
+```
+
+
 ## Key Commands
 
 ### Jump to beginning of line
