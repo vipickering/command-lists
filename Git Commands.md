@@ -11,6 +11,12 @@ Get the Repo from Git
 git clone
 ```
 
+Clone a specific branch. In this case, clone 'dev' branch and make it the working branch.
+
+```
+git clone -b dev url.git
+```
+
 Check the status
 
 ```
