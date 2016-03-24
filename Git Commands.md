@@ -5,7 +5,7 @@ clone -> status -> add files -> commit -> push -> status
 
 ## Git Commands
 
-###Get the Repo from Git
+### Get the Repo from Git
 
 ```
 git clone
