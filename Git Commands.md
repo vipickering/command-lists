@@ -55,6 +55,13 @@ git push -u origin master
 git rm --cached -r .filename
 ```
 
+### Set remote branch to track 
+```
+git branch --set-upstream-to=origin/branch_name branch_name
+```
+
+
+
 
 ## Heroku Commands
 
