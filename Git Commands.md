@@ -49,6 +49,13 @@ git commit -m "commit message"
 git push -u origin master
 ```
 
+### Remove a file from history to track
+
+```
+git rm --cached -r .filename
+```
+
+
 ## Heroku Commands
 
 ### Heroku Create App
