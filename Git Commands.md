@@ -80,6 +80,11 @@ git flow init
 git flow feature start BRANCHNAME
 ```
 
+### Publish branch using Git Flow
+
+```
+git flow feature publish BRANCHNAME
+```
 
 ## Heroku Commands
 
