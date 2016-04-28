@@ -62,17 +62,23 @@ git branch --set-upstream-to=origin/branch_name branch_name
 
 ## Git Flow
 
-Install Git Flow
+### Install Git Flow
 
 ```
 _brew install git-flow
 ```
 
-Setup Git Flow
+### Setup Git Flow
+
 ```
 git flow init
 ```
 
+### Create a feature branch using Git Flow
+
+```
+git flow feature start BRANCHNAME
+```
 
 
 ## Heroku Commands
