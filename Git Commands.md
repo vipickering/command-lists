@@ -1,6 +1,6 @@
 # Git
 
-### Flow
+### Process
 clone -> status -> add files -> commit -> push -> status
 
 ## Git Commands
@@ -60,6 +60,18 @@ git rm --cached -r .filename
 git branch --set-upstream-to=origin/branch_name branch_name
 ```
 
+## Git Flow
+
+Install Git Flow
+
+```
+_brew install git-flow
+```
+
+Setup Git Flow
+```
+git flow init
+```
 
 
 
