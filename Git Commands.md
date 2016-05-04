@@ -24,10 +24,32 @@ git clone -b dev url.git
 git branch branchname
 ```
 
+
+### Delete LOCAL branch
+
+```
+git branch -D branchname
+```
+
+
 ### Check the status
 
 ```
 git status
+```
+
+
+### Check Git HEAD
+
+```
+git fetch
+```
+
+
+### Show available branches
+
+```
+git branch
 ```
 
 
