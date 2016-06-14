@@ -1,0 +1,19 @@
+- AdvancedNewFile
+- AlignTab
+- BracketHighlighter
+- Function Name Display
+- GitGutter
+- HTML Mustache
+- JavascriptNext - ES6 Syntax
+- Jinja 2
+- JsFormat
+- JSHint
+- JSONLint
+- Monokai Extended
+- Nunjucks Syntax
+- Package Control
+- Sass
+- SideBarEnhancements
+- SublimeOnSaveBuild
+- Syntax Highlighting for Sass
+- Tag
