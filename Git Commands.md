@@ -1,6 +1,7 @@
 # Git
 
 ### Process
+
 clone -> status -> add files -> commit -> push -> status
 
 ## Git Commands
@@ -22,6 +23,18 @@ git clone -b dev url.git
 
 ```
 git branch branchname
+```
+
+### checkout branch
+
+```
+git checkout -b branchname
+```
+
+### Set upstream on first commit
+
+```
+git push -u origin branchname
 ```
 
 
@@ -107,6 +120,21 @@ git flow feature start BRANCHNAME
 ```
 git flow feature publish BRANCHNAME
 ```
+
+## Gandi Commands
+
+
+```
+git+ssh://863432@git.dc2.gpaas.net/vincentp.me.git
+```
+
+
+Deploy Website
+
+```
+ssh 863432@git.dc2.gpaas.net 'deploy vincentp.me.git'
+```
+
 
 ## Heroku Commands
 
