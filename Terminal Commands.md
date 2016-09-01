@@ -109,3 +109,15 @@ For example, start a running process such as ```node start```. Then type ```Cont
 ```
 Control-Z
 ```
+
+## Find a running process on a port number
+
+```
+lsof -i tcp:PortNumber
+```
+
+To find the PID number, then do:
+
+```
+kill -9 PIDNumber
+```
