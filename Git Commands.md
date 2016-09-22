@@ -95,6 +95,11 @@ git rm --cached -r .filename
 git branch --set-upstream-to=origin/branch_name
 ```
 
+### Prune old remote branches
+```
+git remote prune origin
+```
+
 ## Git Flow
 
 ### Install Git Flow
@@ -161,4 +166,10 @@ heroku git:remote -a uc-risk
 
 ```
 git push heroku master
+```
+
+### Heroku Destroy App
+
+```
+heroku apps:destroy --app example
 ```

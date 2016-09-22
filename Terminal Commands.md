@@ -4,6 +4,12 @@ All commands I frequently use in the OSX terminal. I prefer [iTerm](http://www.i
 
 ## Terminal Commands
 
+## See all Node packages installed globally
+
+```
+npm list -g --depth=0
+```
+
 ## Run Task in the background
 
 Simply append '&' after the command.
