@@ -91,85 +91,27 @@ git rm --cached -r .filename
 ```
 
 ### Set remote branch to track 
+
 ```
 git branch --set-upstream-to=origin/branch_name
 ```
 
 ### Prune old remote branches
+
 ```
 git remote prune origin
 ```
 
-## Git Flow
+## GitK
 
-### Install Git Flow
-
-```
-_brew install git-flow
-```
-
-### Setup Git Flow
+See all the comments, merges etc
 
 ```
-git flow init
+gitk --all &
 ```
 
-### Create a feature branch using Git Flow
+## Git Show Remote Branches
 
 ```
-git flow feature start BRANCHNAME
-```
-
-### Publish branch using Git Flow
-
-```
-git flow feature publish BRANCHNAME
-```
-
-## Gandi Commands
-
-
-```
-git+ssh://863432@git.dc2.gpaas.net/vincentp.me.git
-```
-
-
-Deploy Website
-
-```
-ssh 863432@git.dc2.gpaas.net 'deploy vincentp.me.git'
-```
-
-
-## Heroku Commands
-
-### Heroku Create App
-
-```
-heroku apps:create my-prototype
-```
-
-### Heroku Set User name and Password
-
-```
-heroku config:set USERNAME=username_here
-heroku config:set PASSWORD=password_here
-```
-
-### Heroku Switch remote app
-
-```
-heroku git:remote -a uc-risk
-```
-
-### Heroku Deploy
-
-```
-git push heroku master
-```
-
-### Heroku Destroy App
-
-```
-heroku apps:destroy --app example
+git remote show origin
 ```

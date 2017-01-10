@@ -127,3 +127,11 @@ To find the PID number, then do:
 ```
 kill -9 PIDNumber
 ```
+
+## Add your SSH key to Keychain
+
+Useful if it doesn't happen automatically
+
+```
+ssh-add -K ~/.ssh/id_rsa
+```
