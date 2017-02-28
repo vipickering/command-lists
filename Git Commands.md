@@ -37,8 +37,21 @@ git checkout -b branchname
 git push -u origin branchname
 ```
 
+### Create the tag
+
+```
+git tag archive/<branch_name> <branch_name>
+```
+
+### Remove branch and push tag to remote
+
+```
+git push --tags origin :<branch_name>
+```
 
 ### Delete LOCAL branch
+
+Make sure you tag it before you remove it!
 
 ```
 git branch -D branchname
@@ -102,6 +115,13 @@ git branch --set-upstream-to=origin/branch_name
 git remote prune origin
 ```
 
+### Prune local branches that don't have a tracking remote
+
+```
+git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
+```
+
+
 ## GitK
 
 See all the comments, merges etc
@@ -111,6 +131,13 @@ gitk --all &
 ```
 
 ## Git Show Remote Branches
+
+```
+git remote show origin
+```
+
+
+## Git show all remotes and trackjed
 
 ```
 git remote show origin
