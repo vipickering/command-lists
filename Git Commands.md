@@ -37,16 +37,12 @@ git checkout -b branchname
 git push -u origin branchname
 ```
 
-### Create the tag
+### Archive branch
 
 ```
-git tag archive/<branch_name> <branch_name>
-```
-
-### Remove branch and push tag to remote
-
-```
-git push --tags origin :<branch_name>
+git tag archive/<branch_name> <branch_name> # Create the tag
+git push --tags origin :<branch_name>       # Remove branch and push tag to remote
+git branch -D branchname					    # Delete LOCAL branch
 ```
 
 ### Delete LOCAL branch
@@ -95,6 +91,14 @@ git commit -m "commit message"
 
 ```
 git push -u origin master
+```
+
+### Rename a git branch locally and remove
+
+```
+git branch -m old_branch new_branch         # Rename branch locally    
+git push origin :old_branch                 # Delete the old branch    
+git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
 ```
 
 ### Remove a file from history to track

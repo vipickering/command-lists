@@ -135,3 +135,11 @@ Useful if it doesn't happen automatically
 ```
 ssh-add -K ~/.ssh/id_rsa
 ```
+
+## Save History to file
+
+Will save the last 100 terminal commands to a file.
+
+```
+history 100 > /Users/NAME_HERE/Desktop/history.txt
+```
